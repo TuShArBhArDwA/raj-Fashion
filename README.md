@@ -1,70 +1,103 @@
-# Getting Started with Create React App
+# Raj Fashion - eCommerce Website
+![rajpfp](https://github.com/user-attachments/assets/ff835bc3-4cc2-4678-b593-2e14977aef67)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+Raj Fashion is a comprehensive eCommerce platform built using the MERN stack, allowing users to explore, view, and purchase a variety of fashion products. This application brings the convenience of a digital marketplace to fashion enthusiasts, enabling a smooth and engaging online shopping experience.
 
-In the project directory, you can run:
+## Project Live Link
+[Live Demo](https://raj-fashion.vercel.app/)
 
-### `npm start`
+## Table of Contents
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- [Introduction](#introduction)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+- [Acknowledgements](#acknowledgements)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Introduction
 
-### `npm test`
+Raj Fashion is an online fashion store where users can browse a range of stylish products, view details, select sizes, and make purchases. The project demonstrates the implementation of key eCommerce functionalities like setting routes, displaying products, filtering by categories, adding to cart, and secure user authentication.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Features
 
-### `npm run build`
+- **Setting Routes**: Smooth navigation across various pages.
+- **Displaying Products**: View products in an organized and visually appealing layout.
+- **Shop by Categories**: Filter products easily based on categories.
+- **Product Detail Page**: Detailed information, images, and size options for each product.
+- **Login Page**: Secure user authentication and account management.
+- **Scroll to Top**: Enhanced navigation flow.
+- **Add to Cart Logic**: Easily add products to the cart and proceed to checkout.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Technologies Used
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **Frontend**: React.js
+- **Backend**: Node.js, Express.js
+- **Database**: MongoDB
+- **Styling**: CSS
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Getting Started
 
-### `npm run eject`
+### Prerequisites
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+To run this project locally, ensure you have **Node.js** and **MongoDB** installed.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Installation
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/raj-fashion.git
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+2. Navigate to the project directory:
+   ```bash
+   cd raj-fashion
+3. Install backend dependencies:
+   ```bash
+   cd backend
+   npm install
+4. Install frontend dependencies:
+   ```bash
+    cd ../frontend
+    npm install
+5. Set up environment variables:
+  - Create a `.env` file in the `backend` directory.
+  - Add the following:
+    ```plaintext
+    MONGO_URI=your_mongodb_uri
+    JWT_SECRET=your_jwt_secret
+    
+6. Start the application:
+  - Start backend:
+    ```bash
+     cd backend
+     npm run server
+  - Start frontend:
+    ```bash
+    cd ../frontend
+    npm start
 
-## Learn More
+## Usage
+1. Navigate to the homepage and browse products.
+2. Use the Shop by Categories to filter products by type.
+3. View the Product Detail Page for item descriptions, sizes, and prices.
+4. Add items to your cart using the Add to Cart Logic and proceed to checkout.
+5. Use the Scroll to Top feature for easy navigation.
+## Contributing
+Contributions are welcome! If you have suggestions or improvements, please submit a pull request or open an issue.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+1. Fork the repository.
+2. Create your feature branch (git checkout -b feature/YourFeature).
+3. Commit your changes (git commit -m 'Add some feature').
+4. Push to the branch (git push origin feature/YourFeature).
+5. Open a pull request.
+## License
+This project is licensed under the MIT License.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Acknowledgements
+- Inspired by modern eCommerce designs, aiming to provide a user-friendly and responsive shopping experience.
+- Thanks to the open-source community for contributions and support.

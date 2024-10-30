@@ -53,7 +53,33 @@ To run this project locally, ensure you have **Node.js** and **MongoDB** install
    ```bash
    git clone https://github.com/your-username/raj-fashion.git
 
-
+2. Navigate to the project directory:
+   ```bash
+   cd raj-fashion
+3. Install backend dependencies:
+   ```bash
+   cd backend
+   npm install
+4. Install frontend dependencies:
+   ```bash
+    cd ../frontend
+    npm install
+5. Set up environment variables:
+  - Create a `.env` file in the `backend` directory.
+  - Add the following:
+    ```plaintext
+    MONGO_URI=your_mongodb_uri
+    JWT_SECRET=your_jwt_secret
+    
+6. Start the application:
+  - Start backend:
+    ```bash
+     cd backend
+     npm run server
+  - Start frontend:
+    ```bash
+    cd ../frontend
+    npm start
 
 ## Usage
 1. Navigate to the homepage and browse products.

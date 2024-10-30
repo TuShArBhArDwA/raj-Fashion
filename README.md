@@ -2,7 +2,7 @@
 ![rajpfp](https://github.com/user-attachments/assets/ff835bc3-4cc2-4678-b593-2e14977aef67)
 
 
-Raj Fashion is a comprehensive eCommerce platform built using the MERN stack, allowing users to explore, view, and purchase a variety of fashion products. This application brings the convenience of a digital marketplace to fashion enthusiasts, enabling a smooth and engaging online shopping experience.
+Raj Fashion is a comprehensive eCommerce platform, allowing users to explore, view, and purchase a variety of fashion products. This application brings the convenience of a digital marketplace to fashion enthusiasts, enabling a smooth and engaging online shopping experience.
 
 ## Project Live Link
 [Live Demo](https://raj-fashion.vercel.app/)
@@ -37,15 +37,13 @@ Raj Fashion is an online fashion store where users can browse a range of stylish
 ## Technologies Used
 
 - **Frontend**: React.js
-- **Backend**: Node.js, Express.js
-- **Database**: MongoDB
 - **Styling**: CSS
 
 ## Getting Started
 
 ### Prerequisites
 
-To run this project locally, ensure you have **Node.js** and **MongoDB** installed.
+To run this project locally, ensure you have **Node.js** installed.
 
 ### Installation
 
@@ -72,10 +70,6 @@ To run this project locally, ensure you have **Node.js** and **MongoDB** install
     JWT_SECRET=your_jwt_secret
     
 6. Start the application:
-  - Start backend:
-    ```bash
-     cd backend
-     npm run server
   - Start frontend:
     ```bash
     cd ../frontend
